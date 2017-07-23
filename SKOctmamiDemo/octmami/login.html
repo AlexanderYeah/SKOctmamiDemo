@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>登录界面</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <script type="text/javascript" src="js/jquery-1.12.2.js"></script>
+    <link rel="stylesheet" href="css/bootcss/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootjs/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.js"></script>
+</head>
+<body style="background: rgba(242,242,242,1)">
+<div id="login_box">
+    <div class="top">
+        <img src="img/regist/oct_logo.png" alt="图片">
+        <h2>欢迎登录</h2>
+    </div>
+    <div class="bottom">
+        <img src="img/login/login_face.jpg" alt="图片">
+        <div class="login_panel">
+            <span>用户登录</span>
+            <button>立即注册</button>
+            <form class="form-group">
+                <div class="form-group has-feedback">
+                    <label class="control-label">用户名</label><span class="show_info">*密码不能低于6位</span>
+                    <input id="username" type="email" class="form-control" placeholder="请输入邮箱">
+                    <span class="glyphicon form-control-feedback"></span>
+                </div>
+                <div class="form-group has-feedback">
+                    <label class="control-label">密码</label><span class="show_info">*密码不能低于6位</span>
+                    <input id="password" type="text" class="form-control" placeholder="请输入密码">
+                    <span class="glyphicon form-control-feedback"></span>
+                </div>
+
+                <button id="login_btn" type="button">登录</button>
+                <div class="regist_suc">
+                    恭喜您，登录成功！
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+/*样式预设*/
+body,h1,h2,h3,h4,h5,h6,p,dl,dd,ul,ol,form,input,textarea,th,td,select{margin: 0;padding: 0}
+em{font-style: normal}
+li{list-style: none}
+a{text-decoration: none}
+img{border: none;vertical-align: top}
+table{border-collapse: collapse}
+input,textarea{outline: none;}
+textarea{resize: none;overflow: auto;}
+body{font-size: 12px;font-family: '微软雅黑'}
+
+
+#login_box {width: 1211px;height:518px;margin: 0 auto;position: relative;}
+#login_box .top {position: relative;top: 40px}
+#login_box .top h2 {position: absolute;top: 20px;left: 200px;font-size: 28px;color: rgba(83,83,83,1)}
+#login_box .bottom {position: relative;top: 60px}
+#login_box .bottom .login_panel {width:347px;height: 400px;background: #ffffff;position: absolute;top: 0px;right: 0px}
+#login_box .bottom .login_panel  span {position: relative;top: 23px;left: 22px;font-size: 19px;font-weight: bold}
+#login_box .bottom .login_panel  button {position: relative;top: 22px;font-size: 15px;left: 162px;color: forestgreen;border: none;background: #ffffff}
+#login_box .bottom .login_panel form {position: relative;top: 40px;margin-left: 20px;margin-right: 20px;}
+#login_box .bottom .login_panel form div {margin-bottom: -20px;}
+#login_box .bottom .login_panel form div .show_info {color: red;position: relative;top: 2px;left: 15px;font-size: 13px;display: none}
+
+.ui-helper-hidden-accessible {display: none}
+#ui-id-1 {background: #f5f5f5;width: 307px}
+#login_box .bottom .login_panel form #regist_btn {width: 307px;color: #ffffff;font-size: 20px;position: relative;height: 38px;left: 0px;top: 50px;background: rgba(56,168,111,1);}
+#login_box .bottom .login_panel form #regist_btn {width: 307px;color: #ffffff;}
+.regist_suc{color: rgba(56,168,111,1);display: none;font-weight: bold;text-align: center;width: 307px;height: 40px;position: relative;top: -30px}

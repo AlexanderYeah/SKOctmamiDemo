@@ -1,0 +1,111 @@
+/*样式预设*/
+body,h1,h2,h3,h4,h5,h6,p,dl,dd,ul,ol,form,input,textarea,th,td,select{margin: 0;padding: 0}
+em{font-style: normal}
+li{list-style: none}
+a{text-decoration: none}
+img{border: none;vertical-align: top}
+table{border-collapse: collapse}
+input,textarea{outline: none;}
+textarea{resize: none;overflow: auto;}
+body{font-size: 12px;font-family: '微软雅黑'}
+
+/*header区域*/
+#header {height: 32px;width: 100%;background:rgba(242,242,242,1);margin: 0 auto;position: relative}
+#header {height: 32px;width: 100%;background: rgba(242,242,242,1);margin: 0 auto;position: relative}
+#header .header_bar {height: 32px;width: 1211px;margin: 0 auto;background: rgba(242,242,242,1);position: relative}
+#header .header_bar .welcome {line-height: 32px;position: relative;left: 0px;font-size: 13px}
+#header .header_bar .user_operation {line-height: 32px;position: relative;right: -55%;top: -32px;font-size: 13px}
+#header .header_bar .user_operation a:hover {text-decoration: underline}
+
+/* 搜索区域 */
+#search {width: 1211px;height: 110px;margin: 0 auto;position: relative;}
+#search .search_logo img{width: 168px;height: 56px;position: relative;top: 20px;}
+#search .searchInput{width: 417px;height: 38px;position: relative;font-size: 15px;left: 434px;top: -26px;border: 2px solid #27b484}
+#search .searchBtn {width: 86px;height: 42px;background: #27b484;font-size: 15px;color: #ffffff;position: relative;left: 431px;top: -27px;border: 2px solid #27b484}
+#search .shop_car {position: relative;left: 1080px;top: -68px;border: 1px solid #ffffff;text-align: center;line-height: 38px;font-size: 14px;width: 130px;height: 38px;background: #f7f7f7}
+#search .shop_img {position: relative;top: 11px}
+#search .shop_nav {position: relative;top:12px;left: 4px}
+#search .shop_count {position: relative;top: -113px;left: 1176px}
+#search .shop_count .shop_text {position: relative;font-size: 3px;left: -16px;top: 2px}
+#search .hot_search {position: relative;top:-82px;left: 434px;line-height: 38px;width: 417px;height: 38px;}
+#search .hot_search span {color: grey;font-size: 13px}
+#search .hot_search .hot_text {color: lightcoral;font-size: 13px}
+
+
+/*导航区域*/
+#nav  {width: 1211px;height: 36px;margin: 0 auto;position: relative;}
+#nav  .nav_menu {width: 230px;height: 36px;background:rgba(81,212,148,1);color: #ffffff;line-height: 36px;font-size: 16px;text-align: center}
+#nav  .nav_menu span {font-size: 12px;margin-left: 10px}
+#nav  .hide_list {width: 230px;height: 403px;background: red;display: none;z-index:10}
+
+#nav  .hide_list .closes {background: lightpink;width: 100%;height: 76px;position: relative;z-index:10}
+#nav  .hide_list .closes:hover {background: rgba(56,168,111,1);color: #ffffff;}
+#nav  .hide_list .closes:hover span{color: #ffffff}
+#nav  .hide_list .closes:hover p{color: #ffffff}
+
+#nav .hide_list p {font-size: 18px;position: relative;font-weight: bold;top: 18px;left: 18px;color: #666666;}
+#nav .hide_list span {font-size: 16px;position: relative;top: 28px;left: 18px;color: #666666;}
+#nav .hide_list .menu_nav {position: relative;left: 35px;}
+
+#content1 {width: 1211px;height: 620px;margin: 0 auto;position: relative;}
+#content1 h4 {color: gray;top: 10px;left: 15px;position: relative;font-size: 14px}
+
+#exam_box {position: relative;top: 35px}
+#exam_box #small-box {width: 420px;height: 420px;position: relative;display: inline-block}
+#exam_box #small-box #mark {position: absolute;display: block;width: 420px;height: 420px;background: #ffffff;opacity: 0;z-index: 10}
+#exam_box #small-box #float-box {width: 200px;height: 200px;display: none;border: 1px solid lightblue;position: absolute;background: cornflowerblue;opacity:0.4 }
+#exam_box #big-box {width: 420px;height: 420px;overflow: hidden;position: absolute;top: 0;left: 430px;z-index: 1;border: 1px solid #ccc;display: none}
+#exam_box #big-box img {position: absolute;z-index: 5}
+
+#exam_box .float_pic {position: relative;}
+#exam_box .float_pic ul {padding-left: 20px}
+#exam_box .float_pic ul li {float: left;width: 64px;height: 64px;margin-left: 10px;margin-top: 10px}
+#exam_box .float_pic ul li img {width: 64px;height: 64px}
+
+#exam_box .float_pic ul .active {border: 1px solid #ffbe21}
+
+/*商品价格盒子*/
+#sale_box {width: 560px;height: 420px;position: absolute;top: 50px;left: 430px;}
+#sale_box h2 {position: relative;top: 15px;left:20px;font-size: 18px;}
+#sale_box .sale_title {position: relative;top:25px;left:20px;font-size: 14px;}
+#sale_box .sale_price {position: relative;top:65px;left:20px;font-size: 30px;color: rgba(205,12,23,1)}
+#sale_box .sale_oldPrice {position:relative;top:65px;left:25px;font-size: 17px;color: rgba(135,135,135,1)}
+#sale_box .sale_no {position:relative;top:63px;left:-35px;font-size: 13px;color: rgba(135,135,135,1)}
+
+#sale_box .discount {position: relative;top: 80px;width: 560px;height: 40px;background:rgba(253,238,224,1);}
+#sale_box .discount span {line-height: 40px;font-size: 14px;margin-left: 20px;color:rgba(241,91,0,1)}
+#sale_box .sale_count {position: relative;top: 100px;}
+#sale_box .sale_count .count {margin-left: 15px;font-size: 14px}
+#sale_box .sale_count .minus_btn {width: 21px;height: 35px;background:rgba(226,226,226,1);border: 1px solid rgba(183,183,183,1)}
+#sale_box .sale_count .show_count {display: inline-block;text-align: center;line-height: 33px;background: #ffffff;position: relative;;left:-3px;width: 38px;height: 33px;top: 1px;border: 1px solid rgba(183,183,183,1)}
+#sale_box .sale_count .add_btn {width: 21px;height: 35px;position: relative;left: -6px;background:rgba(226,226,226,1);border: 1px solid rgba(183,183,183,1)}
+
+#sale_box .add_shopcar {position: relative;;left:10px;border: 0px solid red;top: 160px;font-size: 19px;font-weight: bold;color: #ffffff;border-radius: 2px;width: 175px;height: 41px;background:rgba(56,168,111,1) }
+#sale_box .buy_now  {position: relative;left:30px;border: 0px solid red;top: 160px;font-size: 19px;font-weight: bold;color: #ffffff;border-radius: 2px;width: 175px;height: 41px;background:rgba(241,80,0,1) }
+
+/*提示用户添加购物车成功代码*/
+#succ_info  {position: relative;left: 150px;border-radius: 2px;line-height: 45px;font-size: 16px;text-align: center;display: block;opacity: 0;width:150px;height: 45px;color:#ffffff;background:#38A86F }
+
+#content2 {width: 1211px;height: 620px;margin: 0 auto;position: relative;}
+#goods_list {width: 200px; }
+#goods_list .ui-widget-header {background: #ffffff;border: none}
+#goods_list .top_nav li {width: 205px;height: 40px;border: none;background:rgba(245,245,245,1);position: relative;left: -5px;top: -6px;}
+#goods_list  ul li a {font-size: 18px;margin: 0 auto;position: relative;left: 0px}
+#goods_list  #tabs1 {position: relative;top: -12px;left: -16px}
+#goods_list  #tabs1 ul li {position: relative;left: 10px;width: 190px;height: 30px;font-size: 15px}
+#goods_list  #tabs1 ul li:hover {text-decoration: underline;color: forestgreen;cursor: pointer}
+
+#goods_info {position: absolute;top: 0px;left: 210px;width: 994px;}
+#goods_info .ui-widget-header {background: rgba(245,245,245,1);border: none;width: 995px;height: 43px;position:relative;left: -4px;top: -3px;border-radius: 0px}
+#goods_info .goods_nav li {width: 94px;height: 43px;border-radius: 0px;border: none;border-top: 2px solid rgba(245,245,245,1);background:rgba(245,245,245,1);position: relative;top: -3px}
+#goods_info .goods_nav li a {font-size: 16px;line-height: 30px}
+#goods_info .goods_nav .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { width: 94px;height: 43px;border-radius: 0px;position: relative;top: -3px;border: none;border-top: 2px solid green;background: #ffffff;}
+
+
+#goods_info   #goods_tabs1 span {margin-left: 30px}
+#comment_tab {width: 994px;position: relative;left:-22px}
+#comment_tab .comment_nav {position: absolute;top: 0px;left: 0px;width: 994px;}
+#comment_tab .ui-widget-header {background: rgba(245,245,245,1);border: none;width: 995px;height: 30px;position:relative;left: -4px;top: -3px;border-radius: 0px}
+#comment_tab .comment_nav  li {width: 94px;height: 30px;border-radius: 0px;border: none;border-top: 2px solid rgba(245,245,245,1);background:rgba(245,245,245,1);position: relative;top: -3px}
+#comment_tab .comment_nav .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { width: 94px;height: 43px;border-radius: 0px;position: relative;top: -3px;border: none;border-top: 2px solid green;background: #ffffff;}
+

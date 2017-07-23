@@ -1,0 +1,50 @@
+/*样式预设*/
+body,h1,h2,div,h3,h4,h5,h6,p,dl,dd,ul,ol,form,input,textarea,th,td,select{margin: 0;padding: 0}
+em{font-style: normal}
+li{list-style: none}
+a{text-decoration: none}
+img{border: none;vertical-align: top}
+table{border-collapse: collapse}
+input,textarea{outline: none;}
+textarea{resize: none;overflow: auto;}
+body{font-size: 12px;font-family: '微软雅黑';}
+
+/*header部分*/
+#header{height: 32px;width: 100%;background: rgba(242,242,242,1);margin: 0 auto;position: relative}
+#header .header_bar {height: 32px;width: 1211px;margin: 0 auto;background: rgba(242,242,242,1);position: relative}
+#header .header_bar .welcome {line-height: 32px;position: relative;left: 0px;font-size: 13px}
+#header .header_bar .user_operation {line-height: 32px;position: relative;right: -55%;top: -32px;font-size: 13px}
+#header .header_bar .user_operation a {margin-left: 5px}
+#header .header_bar .user_operation #login_btn{color: lightsalmon}
+/*搜索框部分 */
+#search {width: 1211px;height: 110px;margin: 0 auto;position: relative;}
+#search .search_logo img{width: 168px;height: 56px;position: relative;top: 20px;}
+#search .searchInput{width: 417px;height: 38px;position: relative;font-size: 15px;left: 434px;top: -26px;border: 2px solid #27b484}
+#search .searchBtn {width: 86px;height: 38px;background: #27b484;font-size: 15px;color: #ffffff;position: relative;left: 430px;top: -26px;border: 2px solid #27b484}
+
+#search .shop_car {position: relative;left: 1080px;top: -68px;border: 1px solid #ffffff;text-align: center;line-height: 38px;font-size: 14px;width: 130px;height: 38px;background: #f7f7f7}
+#search .shop_img {position: relative;top: 11px}
+#search .shop_nav {position: relative;top:12px;left: 4px}
+#search .shop_count {position: relative;top: -113px;left: 1176px}
+#search .shop_count .shop_text {position: relative;font-size: 3px;left: -16px;top: 2px}
+#search .hot_search {position: relative;top:-82px;left: 434px;line-height: 38px;width: 417px;height: 38px;}
+#search .hot_search span {color: grey;font-size: 13px;margin-left: 10px}
+#search .hot_search span:hover{cursor: pointer}
+#search .hot_search .hot_text {color: lightcoral;font-size: 13px;margin-left: 0px}
+#search .hot_search .hot_text:hover {cursor: default}
+#search .hot_search .green_text {color:#27b484;}
+
+
+/*搜索结果呈现页面*/
+.container{padding-left: 10px;padding-top: 2px;width: 1211px;height: 1500px;margin: 0 auto;position: relative}
+
+.col-md-2 {width: 233px;height: 303px;background: #ffffff;margin-top: 10px;margin-left: 10px}
+.col-md-2 img {width: 100%;height: 233px}
+.col-md-2 h5 {margin-top:10px;width:180px;height: 22px;line-height: 22px;}
+.col-md-2 .price_box {width: 180px;height: 35px;line-height: 35px}
+.col-md-2 .price_box .price {display: inline-block;font-size: 18px;color: darkred}
+.col-md-2 .price_box .buy_btn {display: inline-block;position: relative;top: -3px;left: 30px;line-height: 26px;width: 70px;height: 26px;background:#27b484;color: #ffffff;border: 0px solid green;}
+
+
+
+

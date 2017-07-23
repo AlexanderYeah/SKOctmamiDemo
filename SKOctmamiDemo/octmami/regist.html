@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>注册界面</title>
+    <link rel="stylesheet" type="text/css" href="css/regist.css">
+    <script type="text/javascript" src="js/jquery-1.12.2.js"></script>
+    <link rel="stylesheet" href="css/bootcss/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootjs/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/regist.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.js"></script>
+</head>
+<body style="background: rgba(242,242,242,1)">
+<div id="login_box">
+    <div class="top">
+        <img src="img/regist/oct_logo.png" alt="图片">
+        <h2>欢迎注册</h2>
+    </div>
+    <div class="bottom">
+        <img src="img/regist/regist_face.jpg" alt="图片">
+        <div class="login_panel">
+            <span>用户注册</span>
+            <button>立即登录</button>
+            <form class="form-group">
+                <div class="form-group has-feedback">
+                    <label class="control-label">用户名</label><span class="show_info">*密码不能低于6位</span>
+                    <input id="username" type="email" class="form-control" placeholder="请输入注册邮箱">
+                    <span class="glyphicon form-control-feedback"></span>
+                </div>
+                <div class="form-group has-feedback">
+                    <label class="control-label">密码</label><span class="show_info">*密码不能低于6位</span>
+                    <input id="password" type="text" class="form-control" placeholder="请输入密码">
+                    <span class="glyphicon form-control-feedback"></span>
+                </div>
+                <div class="form-group has-feedback">
+                    <label class="control-label">再次确认</label><span class="show_info">*两次密码输入不一致</span>
+                    <input id="ensure_pwd" type="text" class="form-control" placeholder="请输入密码">
+                    <span class="glyphicon form-control-feedback"></span>
+                </div>
+                <button id="regist_btn" type="button">注册</button>
+                <div class="regist_suc">
+                    恭喜您，注册成功！
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+/*样式预设*/
+body,h1,h2,div,h3,h4,h5,h6,p,dl,dd,.col-md-2,ul,ol,form,input,textarea,th,td,select{margin: 0;padding: 0}
+em{font-style: normal}
+li{list-style: none}
+a{text-decoration: none}
+img{border: none;vertical-align: top}
+table{border-collapse: collapse}
+input,textarea{outline: none;}
+textarea{resize: none;overflow: auto;}
+body{font-size: 12px;font-family: '微软雅黑'}
+
+/*header部分*/
+#header{height: 32px;width: 100%;background: rgba(242,242,242,1);margin: 0 auto;position: relative}
+#header .header_bar {height: 32px;width: 1211px;margin: 0 auto;background: rgba(242,242,242,1);position: relative}
+#header .header_bar .welcome {line-height: 32px;position: relative;left: 0px;font-size: 13px}
+#header .header_bar .user_operation {line-height: 32px;position: relative;right: -55%;top: -32px;font-size: 13px}
+#header .header_bar .user_operation a {margin-left: 5px}
+#header .header_bar .user_operation #login_btn{color: lightsalmon}
+/*搜索框部分 */
+#search {width: 1211px;height: 110px;margin: 0 auto;position: relative;}
+#search .search_logo img{width: 168px;height: 56px;position: relative;top: 20px;}
+#search .searchInput{width: 417px;height: 38px;position: relative;font-size: 15px;left: 434px;top: -26px;border: 2px solid rgba(70,217,167,1)}
+#search .searchBtn {width: 86px;height: 38px;background: rgba(70,217,167,1);font-size: 15px;color: #ffffff;position: relative;left: 430px;top: -26px;border: 2px solid #27b484}
+
+#search .shop_car {position: relative;left: 1080px;top: -68px;border: 1px solid #ffffff;text-align: center;line-height: 38px;font-size: 14px;width: 130px;height: 38px;background: #f7f7f7}
+#search .shop_img {position: relative;top: 11px}
+#search .shop_nav {position: relative;top:12px;left: 4px}
+#search .shop_count {position: relative;top: -113px;left: 1176px}
+#search .shop_count .shop_text {position: relative;font-size: 3px;left: -16px;top: 2px}
+#search .hot_search {position: relative;top:-82px;left: 434px;line-height: 38px;width: 417px;height: 38px;}
+#search .hot_search span {color: grey;font-size: 13px;margin-left: 10px}
+#search .hot_search span:hover{cursor: pointer}
+#search .hot_search .hot_text {color: lightcoral;font-size: 13px;margin-left: 0px}
+#search .hot_search .hot_text:hover {cursor: default}
+#search .hot_search .green_text {color:rgba(70,217,167,1);}
+
+/*菜单栏部分部分 */
+#nav {border-bottom: 2px solid rgba(70,217,167,1)}
+#nav .tab {width: 1211px;height: 38px;margin: 0 auto;position: relative;}
+#nav .tab ul {width: 376px;height: 38px;left: 230px;position: relative}
+#nav .tab ul li {float: left;width: 94px;height: 38px;background: #ffffff;line-height: 38px;font-family: 'arial';text-align: center;color: #666666;font-size: 15px}
+#nav .tab ul li:hover {background: rgba(70,217,167,1);color: #ffffff;cursor: pointer}
+#nav .tab .tab_active {background: rgba(70,217,167,1);color: #ffffff;}
+
+/*进度条部分*/
+.process_area {width: 1211px;height:120px;background: rgba(246,246,246,1);margin: 0 auto;margin-top: 20px;position: relative}
+.process_area .process_box {width: 724px;height: 120px;margin:0 auto;}
+.process_area ul {position: relative}
+.process_box ul li {float: left;width: 25%;height: 120px;position: relative;}
+.process_box ul li .process_bar1 {background: rgba(70,217,167,1);border-top-left-radius: 3px;border-bottom-left-radius: 3px;}
+.process_box ul li  .process_ball1 {background: rgba(70,217,167,1);}
+.process_box ul li .process_title {text-align: center;color:rgba(70,217,167,1);font-size: 13px;position: relative;top: 50px}
+.process_bar2,.process_bar1,.process_bar3 {width: 100%;height: 6px;position: relative;top: 57px;}
+.process_ball1,.process_ball2{text-align: center;line-height: 22px;width: 24px;height: 24px;color: #ffffff;border-radius: 12px;position: relative;margin: 0 auto;top: 42px}
+.process_box ul li .process_bar2 {background: rgba(204,204,204,1);}
+.process_box ul li .process_bar3 {background: rgba(204,204,204,1);border-top-right-radius: 3px;border-bottom-right-radius: 3px;}
+.process_ball2 {background: rgba(204,204,204,1)}
+
+/*商品列表*/
+.goods_area {width: 1211px;height: 550px;margin: 0 auto;background: lightblue;margin-top: 20px}
+#goods_table {width: 100%;height: 100%;font-size: 13px;color:rgba(51,51,51,1) }
+/*表头*/
+thead {;border: 1px solid rgba(220,220,220,1);background:rgba(246,246,246,1)}
+th {height: 40px;}
+/*表体*/
+tbody tr {border-bottom: 1px solid rgba(230,230,230,1)}
+.thead_first,.tbody_item1 {width: 210px;padding-left:40px;}
+.thead_normal {width: 110px}
+.tbody_item1 input {position: relative;}
+.tbody_item1 img {width: 75px;height: 75px;margin-left: 20px}
+.tbody_item3 span {color: darkred;font-size: 16px}
+.tbody_item5 span {color: darkred;font-size: 16px}
+.tbody_item6  {color: rgba(102,102,108,1);font-size: 13px}
+.tbody_item6:hover {text-decoration: underline;cursor: pointer}
+
+.sale_count {position: relative;top: 0px;}
+.sale_count .minus_btn {width: 18px;height: 30px;background:rgba(226,226,226,1);border: 1px solid rgba(183,183,183,1)}
+.sale_count .show_count {display: inline-block;margin-left: -5px;text-align: center;line-height: 30px;background: #ffffff;position: relative;left:0px;width: 40px;height: 30px;top: 0px;border: 1px solid rgba(183,183,183,1)}
+.sale_count .add_btn {width: 18px;height: 30px;position: relative;margin-left: -5px;background:rgba(226,226,226,1);border: 1px solid rgba(183,183,183,1);}
+.sale_count .add_btn div {position: relative;left: -2px}
+
+
+/*表尾*/
+tfoot tr th {height: 100px;background: rgba(226,226,226,1);}
+.tfoot_item1 {padding-left:40px;font-weight: normal}
+.tfoot_item2 div {font-weight: normal;width:88px}
+.tfoot_item2 div:hover {text-decoration: underline;cursor: pointer}
+.tfoot_item3 {font-weight: normal}
+.tfoot_item3:hover {text-decoration: underline;cursor: pointer}
+.tfoot_item5,.tfoot_item4{font-weight: normal;color: darkred;font-size: 16px}
+.tfoot_item6 {font-weight: normal;color: darkred;font-size: 16px}
+
+.sumitOrder {position: relative;width: 1211px;height: 50px;background:rgba(226,226,226,1);margin: 0 auto;margin-top: 8px;}
+.goBuyBtn {position:absolute;right: 20px;top: 5px;width: 110px;font-size: 18px;border-radius: 2px;line-height: 40px;text-align: center;height: 40px;background: rgba(255,102,0,1);color: #ffffff}

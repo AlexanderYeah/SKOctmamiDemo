@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>十月商城-十月妈咪官方商城</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/home/logo_icon.png"/>
+    <script type="text/javascript" src="js/jquery-1.12.2.js"></script>
+    <link rel="stylesheet" href="css/bootcss/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootjs/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/home.css">
+    <script type="text/javascript" src="js/home.js"></script>
+    <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="js/slide.js"></script>
+</head>
+<body style="overflow-x: hidden">
+<!--导航条-->
+<div id="header">
+    <div class="header_bar">
+        <div class="welcome">欢迎来到十月妈咪！</div>
+        <div class="user_operation">
+            <a id="login_btn" href="#">登录</a>
+            <a id="regist_btn" href="#">注册</a>
+            <a href="#">我的订单</a>
+            <a href="#">手机商场</a>
+            <a href="#">关注商城</a>
+            <a href="#">防伪查询</a>
+            <a href="#">收藏十月</a>
+            <span class="header_tel">客服电话:400-400-0000</span>
+        </div>
+    </div>
+</div>
+<!--搜索区域-->
+<div id="search">
+    <div class="search_logo"><img src="img/home/oct_logo.png"></div>
+    <input type="text" class="searchInput" placeholder=" 请输入您要搜索的内容"/>
+    <button  class="searchBtn">搜索</button>
+    <!--购物车-->
+    <div class="shop_car">
+        <img src="img/shop_car.png" class="shop_img">
+        <span>我的购物车</span>
+        <img src="img/shop_nav.png" class="shop_nav">
+    </div>
+           <span class="shop_count">
+                   <img src="img/shop_count.png">
+                   <span class="shop_text">9</span>
+           </span>
+    <div class="hot_search">
+        <span  class="hot_text">热门搜索:</span>
+        <span  class="green_text">防辐射服</span>
+        <span >孕妇装</span>
+        <span class="green_text">孕期防护</span>
+        <span >待产包</span>
+
+    </div>
+    </div>
+
+
+
+<!--导航栏-->
+<div id="nav">
+    <div class="tab">
+        <ul>
+            <li class="tab_active">首页</li>
+            <li>十月闪购</li>
+            <li>冬季新品</li>
+            <li>孕期内衣</li>
+        </ul>
+    </div>
+    <div style="background: #27b484;width: 100%;height: 3px"></div>
+    <div class="menu_bg">
+        <div id="banner">
+            <ul>
+                <li class="active"><img src="img/home/menu_bg.jpg" alt="背景"></li>
+                <li><img src="img/home/主页轮播1.jpg" alt="背景"></li>
+                <li><img src="img/home/主页轮播2.jpg" alt="背景"></li>
+                <li><img src="img/home/主页轮播3.jpg" alt="背景"></li>
+                <li><img src="img/home/主页轮播4.jpg" alt="背景"></li>
+                <li><img src="img/home/主页轮播5.jpg" alt="背景"></li>
+            </ul>
+        </div>
+        <!--菜单-->
+        <div class="menu_contanier">
+            <div class="menu">
+                <div class="closes">
+                    <p>服饰类</p>
+                    <span>上装</span>
+                    <span>下装</span>
+                    <span>裙装</span>
+                    <span>孕妇内衣</span>
+                    <span class="menu_nav">   >   </span>
+                </div>
+                <div class="closes">
+                    <p>纸品类</p>
+                    <span>尿库</span>
+                    <span>尿布</span>
+                    <span>湿巾</span>
+                    <span>婴儿纸巾</span>
+                    <span class="menu_nav">   >   </span>
+                </div>
+                <div class="closes">
+                    <p>用品类</p>
+                    <span>奶瓶</span>
+                    <span>奶嘴</span>
+                    <span>饭盒</span>
+                    <span>吸奶器具</span>
+                    <span class="menu_nav">   >   </span>
+                </div>
+                <div class="closes">
+                    <p>洗护美容类</p>
+                    <span>护肤</span>
+                    <span>洗浴</span>
+                    <span>美容</span>
+                    <span>妈妈洗护</span>
+                    <span class="menu_nav">   >   </span>
+                </div>
+                <div class="closes">
+                    <p>出行类</p>
+                    <span>推车</span>
+                    <span>座椅</span>
+                    <span>背包</span>
+                    <span>婴儿背带</span>
+                    <span class="menu_nav">   >   </span>
+                </div>
+
+                <div class="closes">
+                    <p>食品类</p>
+                    <span>奶粉</span>
+                    <span>辅食</span>
+                    <span>奶粉</span>
+                    <span>营养补品</span>
+                    <span class="menu_nav">   >   </span>
+                </div>
+            </div>
+        </div>
+        <div class="right_btn">
+            <img src="img/home/banner_nav_left.png" style="width: 13px;height: 28px;position: relative;top: 25px;left: 8px">
+        </div>
+        <div class="left_btn">
+            <img src="img/home/banner%10_nav_right.png" style="width: 13px;height: 28px;position: relative;top: 25px;left: 8px">
+        </div>
+    </div>
+</div>
+
+<!--秒杀和育儿宝典区域-->
+<div id="secArea">
+    <!--秒杀区域-->
+    <div id="secSale">
+        <!--秒杀的标题-->
+        <div class="secSale_top">
+            <span class="secSale_title">限时特惠预告</span>
+            <span class="secSale_start">距离开始:</span>
+            <div id="secSale_countTime">
+                <span id="sale_day">00天</span>
+                <span id="sale_hour">00时</span>
+                <span id="sale_min">00分</span>
+                <span id="sale_sec">00秒</span>
+            </div>
+        </div>
+        <!--秒杀的商品-->
+        <div class="secSale_bottom">
+            <span  class="btn_left"><img src="img/nav_btn/left_nav.png" alt=""/></span>
+            <span  class="btn_right"><img src="img/nav_btn/nav-right.png" alt=""/></span>
+            <div class="secSale_goods">
+                <ul>
+                    <li>
+                        <div class="secSale_img">
+                            <img src="img/secKill/secKill1.jpg" alt=""/>
+                        </div>
+                        <div class="secSale_info">
+                            <div class="secSale_infoTitle">feisheer费雪婴儿手抓球</div>
+                            <div class="secSale_infoDetail">小象手抓球</div>
+                            <div class="secSale_infoPrice">RMB:¥88.00</div>
+                            <div class="secSale_infoBuy">立即抢购</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="secSale_img">
+                            <img src="img/secKill/secKill2.jpg" alt=""/>
+                        </div>
+                        <div class="secSale_info">
+                            <div class="secSale_infoTitle">shrPump进口婴儿洁肤皂</div>
+                            <div class="secSale_infoDetail">不伤身 好品质</div>
+                            <div class="secSale_infoPrice">RMB:¥28.00</div>
+                            <div class="secSale_infoBuy">立即抢购</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="secSale_img">
+                            <img src="img/secKill/secKill3.jpg" alt=""/>
+                        </div>
+                        <div class="secSale_info">
+                            <div class="secSale_infoTitle">B&B进口婴儿护肤霜</div>
+                            <div class="secSale_infoDetail">保护婴儿皮肤</div>
+                            <div class="secSale_infoPrice">RMB:¥98.00</div>
+                            <div class="secSale_infoBuy">立即抢购</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="secSale_img">
+                            <img src="img/secKill/secKill4.jpg" alt=""/>
+                        </div>
+                        <div class="secSale_info">
+                            <div class="secSale_infoTitle">santina婴儿清洁洗手剂</div>
+                            <div class="secSale_infoDetail">清洁 健康</div>
+                            <div class="secSale_infoPrice">RMB:¥48.00</div>
+                            <div class="secSale_infoBuy">立即抢购</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="secSale_img">
+                            <img src="img/secKill/secKill1.jpg" alt=""/>
+                        </div>
+                        <div class="secSale_info">
+                            <div class="secSale_infoTitle">feisheer费雪婴儿手抓球</div>
+                            <div class="secSale_infoDetail">小象手抓球</div>
+                            <div class="secSale_infoPrice">RMB:¥88.00</div>
+                            <div class="secSale_infoBuy">立即抢购</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="secSale_img">
+                            <img src="img/secKill/secKill2.jpg" alt=""/>
+                        </div>
+                        <div class="secSale_info">
+                            <div class="secSale_infoTitle">shrPump进口婴儿洁肤皂</div>
+                            <div class="secSale_infoDetail">不伤身 好品质</div>
+                            <div class="secSale_infoPrice">RMB:¥28.00</div>
+                            <div class="secSale_infoBuy">立即抢购</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="secSale_img">
+                            <img src="img/secKill/secKill3.jpg" alt=""/>
+                        </div>
+                        <div class="secSale_info">
+                            <div class="secSale_infoTitle">B&B进口婴儿护肤霜</div>
+                            <div class="secSale_infoDetail">保护婴儿皮肤</div>
+                            <div class="secSale_infoPrice">RMB:¥98.00</div>
+                            <div class="secSale_infoBuy">立即抢购</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="secSale_img">
+                            <img src="img/secKill/secKill4.jpg" alt=""/>
+                        </div>
+                        <div class="secSale_info">
+                            <div class="secSale_infoTitle">santina婴儿清洁洗手剂</div>
+                            <div class="secSale_infoDetail">清洁 健康</div>
+                            <div class="secSale_infoPrice">RMB:¥48.00</div>
+                            <div class="secSale_infoBuy">立即抢购</div>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <!--育儿宝典区域-->
+    <div id="childInfo">
+        <div class="childInfo_title">育儿宝典</div>
+        <div class="childInfo_Sep"></div>
+        <ul>
+            <li>2017生鸡盎然 新年甄选好礼 </li>
+            <li>2017get好孕气，或许该从这开始 </li>
+            <li>喂爱新生，呵护宝宝成长 </li>
+            <li>圣诞来袭，你的礼物准备好了吗？ </li>
+            <li>新晋妈妈，给娃囤货怎能少了这些 </li>
+            <li>产后这些让妈妈后悔的事情</li>
+            <li>一大波冷空气来袭！辣妈萌宝</li>
+        </ul>
+    </div>
+
+
+</div>
+<!--孕期产后等等 时间轴 timeline-->
+<div class="tl_salebox">
+    <!--顶部tab栏-->
+    <div class="tl_tab">
+        <ul>
+            <li id="tl_tabFirst" class="active">孕期</li>
+            <li >产后</li>
+            <li>0-6个月</li>
+            <li>6-12个月</li>
+            <li>1-3岁</li>
+            <li id="tl_tabLast">3岁以上</li>
+        </ul>
+    </div>
+    <!--底部goodsList-->
+    <div class="tl_goodsList">
+        <div class="container">
+           <div class="row">
+               <div class="col-md-2">
+                    <div>
+                        <img src="img/tl_tab/tab1_1.jpg" alt=""/>
+                    </div>
+                    <div class="tl_goodsPrice">¥:299.00</div>
+                    <div class="tl_goodsDetail">十月妈咪针织毛衣给你最舒适的体验</div>
+               </div>
+               <div class="col-md-2">
+                   <div>
+                       <img src="img/tl_tab/tab1_2.jpg" alt=""/>
+                   </div>
+                   <div class="tl_goodsPrice">¥:199.00</div>
+                   <div class="tl_goodsDetail">十月妈咪针织毛衣给你最舒适的体验</div>
+               </div>
+               <div class="col-md-2">
+                   <div>
+                       <img src="img/tl_tab/tab1_3.jpg" alt=""/>
+                   </div>
+                   <div class="tl_goodsPrice">¥:239.00</div>
+                   <div class="tl_goodsDetail">十月妈咪octmami银针织吊带防辐射</div>
+               </div>
+               <div class="col-md-2">
+                   <div>
+                       <img src="img/tl_tab/tab1_4.jpg" alt=""/>
+                   </div>
+                   <div class="tl_goodsPrice">¥:419.00</div>
+                   <div class="tl_goodsDetail">十月妈咪octmami孕妇护肤品套装洗护3件套</div>
+               </div>
+               <div class="col-md-2">
+                   <div>
+                       <img src="img/tl_tab/tab1_5.jpg" alt=""/>
+                   </div>
+                   <div class="tl_goodsPrice">¥:369.00</div>
+                   <div class="tl_goodsDetail">十月妈咪针织毛衣给你最舒适的体验</div>
+               </div>
+               <div class="col-md-2" id="tl_goodsLast">
+                   <div>
+                       <img src="img/tl_tab/tab1_6.jpg" alt=""/>
+                   </div>
+                   <div class="tl_goodsPrice">¥:249.00</div>
+                   <div class="tl_goodsDetail">韩国F型孕妇枕头孕妇抱枕多功能孕妇睡枕护腰侧枕韩国进口孕妇枕 韩国进口 F型新款</div>
+               </div>
+           </div>
+        </div>
+    </div>
+</div>
+
+<!--商品分类区域 1F-->
+<div class="floor_box">
+    <!--左边-->
+    <div class="floor_box_left">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="floor_indiBox floor_indiFirst" >
+                        1F
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="floor_indiBox floor_indiSecond" >服饰类</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="floor_indiBox">上装</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="floor_indiBox">夏装</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="floor_indiBox">裙装</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="floor_indiBox">孕妇装</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="floor_indiBox">辐射服</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="floor_indiBox">宝宝装</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--中间-->
+    <div class="floor_box_mid">
+        <div><img src="img/floor/floor1_face.jpg" alt=""/></div>
+    </div>
+    <!--右边-->
+    <div class="floor_box_right">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                   <div class="floor_goodsBox">
+                        <div><img src="img/floor/floor1_1.jpg" alt=""/></div>
+                        <div class="floor_goodsInfo">舒适家居服饰</div>
+                        <div class="floor_goodsPrice">¥:299.00</div>
+                        <div class="floor_goodsBuy">立即购买</div>
+                        <div class="triangle_left"></div>
+
+                   </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="floor_goodsBox">
+                        <div><img src="img/floor/floor1_2.jpg" alt=""/></div>
+                        <div class="floor_goodsInfo">舒适家居服饰</div>
+                        <div class="floor_goodsPrice">¥:299.00</div>
+                        <div class="floor_goodsBuy">立即购买</div>
+                        <div class="triangle_left"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="floor_goodsBox">
+                        <div><img src="img/floor/floor1_3.png" alt=""/></div>
+                        <div class="floor_goodsInfo">舒适家居服饰</div>
+                        <div class="floor_goodsPrice">¥:299.00</div>
+                        <div class="floor_goodsBuy">立即购买</div>
+                        <div class="triangle_left"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="floor_goodsBox">
+                        <div><img src="img/floor/floor1_4.jpg" alt=""/></div>
+                        <div class="floor_goodsInfo">舒适家居服饰</div>
+                        <div class="floor_goodsPrice">¥:299.00</div>
+                        <div class="floor_goodsBuy">立即购买</div>
+                        <div class="triangle_left"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="floor_goodsBox">
+                        <div><img src="img/floor/floor1_5.jpg" alt=""/></div>
+                        <div class="floor_goodsInfo">舒适家居服饰</div>
+                        <div class="floor_goodsPrice">¥:299.00</div>
+                        <div class="floor_goodsBuy">立即购买</div>
+                        <div class="triangle_left"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="floor_goodsBox">
+                        <div><img src="img/floor/floor1_6.jpg" alt=""/></div>
+                        <div class="floor_goodsInfo">舒适家居服饰</div>
+                        <div class="floor_goodsPrice">¥:299.00</div>
+                        <div class="floor_goodsBuy">立即购买</div>
+                        <div class="triangle_left"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!--商品分类区域 2F-->
+<div class="floor_box">
+    <!--左边-->
+    <div class="floor_box_left">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="floor_indiBox floor_indiFirst floor2_indiBox ">
+                        2F
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="floor_indiBox floor2_indiSecond">纸品类</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="floor_indiBox floor2_indiSecond">纸尿裤</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="floor_indiBox floor2_indiSecond">湿巾</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="floor_indiBox floor2_indiSecond">待产包</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--中间-->
+    <div class="floor_box_mid">
+        <div><img src="img/floor/floor2_face.jpg" alt=""/></div>
+    </div>
+    <!--右边-->
+    <div class="floor_box_right">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="floor_goodsBox">
+                        <div><img src="img/floor/floor2_1.jpg" alt=""/></div>
+                        <div class="floor_goodsInfo">舒适家居服饰</div>
+                        <div class="floor_goodsPrice">¥:200.00</div>
+                        <div class="floor_goodsBuy floor2_goodsBuy">立即购买</div>
+                        <div class="triangle_left triangle2_left "></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="floor_goodsBox">
+                        <div><img src="img/floor/floor2_2.jpeg" alt=""/></div>
+                        <div class="floor_goodsInfo">舒适家居服饰</div>
+                        <div class="floor_goodsPrice">¥:29.00</div>
+                        <div class="floor_goodsBuy floor2_goodsBuy">立即购买</div>
+                        <div class="triangle_left triangle2_left "></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="floor_goodsBox">
+                        <div><img src="img/floor/floor2_3.jpg" alt=""/></div>
+                        <div class="floor_goodsInfo">舒适家居服饰</div>
+                        <div class="floor_goodsPrice">¥:59.00</div>
+                        <div class="floor_goodsBuy floor2_goodsBuy">立即购买</div>
+                        <div class="triangle_left triangle2_left "></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="floor_goodsBox">
+                        <div><img src="img/floor/floor2_4.jpg" alt=""/></div>
+                        <div class="floor_goodsInfo">舒适家居服饰</div>
+                        <div class="floor_goodsPrice">¥:21.00</div>
+                        <div class="floor_goodsBuy floor2_goodsBuy">立即购买</div>
+                        <div class="triangle_left triangle2_left "></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="floor_goodsBox">
+                        <div><img src="img/floor/floor2_5.jpg" alt=""/></div>
+                        <div class="floor_goodsInfo">舒适家居服饰</div>
+                        <div class="floor_goodsPrice">¥:91.00</div>
+                        <div class="floor_goodsBuy floor2_goodsBuy">立即购买</div>
+                        <div class="triangle_left triangle2_left "></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="floor_goodsBox">
+                        <div><img src="img/floor/floor2_6.jpg" alt=""/></div>
+                        <div class="floor_goodsInfo">舒适家居服饰</div>
+                        <div class="floor_goodsPrice">¥:129.00</div>
+                        <div class="floor_goodsBuy floor2_goodsBuy">立即购买</div>
+                        <div class="triangle_left triangle2_left "></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!--商品分类区域 3F-->
+<div class="floor_box">
+<!--左边-->
+<div class="floor_box_left">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="floor_indiBox floor_indiFirst  floor3_indiBox">
+                    3F
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="floor_indiBox floor_indiSecond floor3_indiSecond">用品类</div>
+            </div>
+            <div class="col-md-6">
+                <div class="floor_indiBox floor3_indiSecond">奶瓶</div>
+            </div>
+            <div class="col-md-6">
+                <div class="floor_indiBox floor3_indiSecond">奶嘴</div>
+            </div>
+            <div class="col-md-6">
+                <div class="floor_indiBox floor3_indiSecond">水壶水杯</div>
+            </div>
+            <div class="col-md-6">
+                <div class="floor_indiBox floor3_indiSecond">宝宝餐具</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--中间-->
+<div class="floor_box_mid">
+    <div><img src="img/floor/floor3_face.jpg" alt=""/></div>
+</div>
+<!--右边-->
+<div class="floor_box_right">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="floor_goodsBox">
+                    <div><img src="img/floor/floor3_1.jpg" alt=""/></div>
+                    <div class="floor_goodsInfo">舒适家居服饰</div>
+                    <div class="floor_goodsPrice">¥:299.00</div>
+                    <div class="floor_goodsBuy floor3_goodsBuy">立即购买</div>
+                    <div class="triangle_left triangle3_left"></div>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="floor_goodsBox">
+                    <div><img src="img/floor/floor3_2.jpg" alt=""/></div>
+                    <div class="floor_goodsInfo">舒适家居服饰</div>
+                    <div class="floor_goodsPrice">¥:299.00</div>
+                    <div class="floor_goodsBuy floor3_goodsBuy">立即购买</div>
+                    <div class="triangle_left triangle3_left"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="floor_goodsBox">
+                    <div><img src="img/floor/floor3_3.jpg" alt=""/></div>
+                    <div class="floor_goodsInfo">舒适家居服饰</div>
+                    <div class="floor_goodsPrice">¥:299.00</div>
+                    <div class="floor_goodsBuy floor3_goodsBuy">立即购买</div>
+                    <div class="triangle_left triangle3_left"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="floor_goodsBox">
+                    <div><img src="img/floor/floor3_4.jpg" alt=""/></div>
+                    <div class="floor_goodsInfo">舒适家居服饰</div>
+                    <div class="floor_goodsPrice">¥:299.00</div>
+                    <div class="floor_goodsBuy floor3_goodsBuy">立即购买</div>
+                    <div class="triangle_left triangle3_left"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="floor_goodsBox">
+                    <div><img src="img/floor/floor3_5.jpg" alt=""/></div>
+                    <div class="floor_goodsInfo">舒适家居服饰</div>
+                    <div class="floor_goodsPrice">¥:299.00</div>
+                    <div class="floor_goodsBuy floor3_goodsBuy">立即购买</div>
+                    <div class="triangle_left triangle3_left"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="floor_goodsBox">
+                    <div><img src="img/floor/floor3_6.jpg" alt=""/></div>
+                    <div class="floor_goodsInfo">舒适家居服饰</div>
+                    <div class="floor_goodsPrice">¥:299.00</div>
+                    <div class="floor_goodsBuy floor3_goodsBuy">立即购买</div>
+                    <div class="triangle_left triangle3_left"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<!--商品分类区域 4F-->
+<div class="floor_box">
+    <!--左边-->
+    <div class="floor_box_left">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="floor_indiBox floor_indiFirst  floor4_indiBox">
+                        4F
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="floor_indiBox floor_indiSecond floor4_indiSecond">洗护类</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="floor_indiBox floor4_indiSecond">奶瓶</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="floor_indiBox floor4_indiSecond">奶嘴</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="floor_indiBox floor4_indiSecond">水壶水杯</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="floor_indiBox floor4_indiSecond">宝宝餐具</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--中间-->
+    <div class="floor_box_mid">
+        <div><img src="img/floor/floor4_face.jpg" alt=""/></div>
+    </div>
+    <!--右边-->
+    <div class="floor_box_right">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="floor_goodsBox">
+                        <div><img src="img/floor/floor4_1.jpg" alt=""/></div>
+                        <div class="floor_goodsInfo">舒适家居服饰</div>
+                        <div class="floor_goodsPrice">¥:299.00</div>
+                        <div class="floor_goodsBuy floor4_goodsBuy">立即购买</div>
+                        <div class="triangle_left triangle4_left"></div>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="floor_goodsBox">
+                        <div><img src="img/floor/floor4_2.jpg" alt=""/></div>
+                        <div class="floor_goodsInfo">舒适家居服饰</div>
+                        <div class="floor_goodsPrice">¥:299.00</div>
+                        <div class="floor_goodsBuy floor4_goodsBuy">立即购买</div>
+                        <div class="triangle_left triangle4_left"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="floor_goodsBox">
+                        <div><img src="img/floor/floor4_3.jpg" alt=""/></div>
+                        <div class="floor_goodsInfo">舒适家居服饰</div>
+                        <div class="floor_goodsPrice">¥:299.00</div>
+                        <div class="floor_goodsBuy floor4_goodsBuy">立即购买</div>
+                        <div class="triangle_left triangle4_left"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="floor_goodsBox">
+                        <div><img src="img/floor/floor4_4.jpg" alt=""/></div>
+                        <div class="floor_goodsInfo">舒适家居服饰</div>
+                        <div class="floor_goodsPrice">¥:299.00</div>
+                        <div class="floor_goodsBuy floor4_goodsBuy">立即购买</div>
+                        <div class="triangle_left triangle4_left"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="floor_goodsBox">
+                        <div><img src="img/floor/floor4_5.jpg" alt=""/></div>
+                        <div class="floor_goodsInfo">舒适家居服饰</div>
+                        <div class="floor_goodsPrice">¥:299.00</div>
+                        <div class="floor_goodsBuy floor4_goodsBuy">立即购买</div>
+                        <div class="triangle_left triangle4_left"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="floor_goodsBox">
+                        <div><img src="img/floor/floor4_6.jpg" alt=""/></div>
+                        <div class="floor_goodsInfo">舒适家居服饰</div>
+                        <div class="floor_goodsPrice">¥:299.00</div>
+                        <div class="floor_goodsBuy floor4_goodsBuy">立即购买</div>
+                        <div class="triangle_left triangle4_left"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!--商品分类区域 5F-->
+<div class="floor_box">
+    <!--左边-->
+    <div class="floor_box_left">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="floor_indiBox floor_indiFirst  floor5_indiBox">
+                        5F
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="floor_indiBox floor_indiSecond floor5_indiSecond">洗护类</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="floor_indiBox floor5_indiSecond">护肤</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="floor_indiBox floor5_indiSecond">洗浴</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="floor_indiBox floor5_indiSecond">美容</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="floor_indiBox floor5_indiSecond">保湿</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--中间-->
+    <div class="floor_box_mid">
+        <div><img src="img/floor/floor5_face.jpg" alt=""/></div>
+    </div>
+    <!--右边-->
+    <div class="floor_box_right">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="floor_goodsBox">
+                        <div><img src="img/floor/floor5_1.jpg" alt=""/></div>
+                        <div class="floor_goodsInfo">舒适家居服饰</div>
+                        <div class="floor_goodsPrice">¥:299.00</div>
+                        <div class="floor_goodsBuy floor5_goodsBuy">立即购买</div>
+                        <div class="triangle_left triangle5_left"></div>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="floor_goodsBox">
+                        <div><img src="img/floor/floor5_2.jpg" alt=""/></div>
+                        <div class="floor_goodsInfo">舒适家居服饰</div>
+                        <div class="floor_goodsPrice">¥:299.00</div>
+                        <div class="floor_goodsBuy floor5_goodsBuy">立即购买</div>
+                        <div class="triangle_left triangle5_left"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="floor_goodsBox">
+                        <div><img src="img/floor/floor5_3.jpg" alt=""/></div>
+                        <div class="floor_goodsInfo">舒适家居服饰</div>
+                        <div class="floor_goodsPrice">¥:299.00</div>
+                        <div class="floor_goodsBuy floor5_goodsBuy">立即购买</div>
+                        <div class="triangle_left triangle5_left"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="floor_goodsBox">
+                        <div><img src="img/floor/floor5_4.jpg" alt=""/></div>
+                        <div class="floor_goodsInfo">舒适家居服饰</div>
+                        <div class="floor_goodsPrice">¥:299.00</div>
+                        <div class="floor_goodsBuy floor5_goodsBuy">立即购买</div>
+                        <div class="triangle_left triangle5_left"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="floor_goodsBox">
+                        <div><img src="img/floor/floor5_5.jpg" alt=""/></div>
+                        <div class="floor_goodsInfo">舒适家居服饰</div>
+                        <div class="floor_goodsPrice">¥:299.00</div>
+                        <div class="floor_goodsBuy floor5_goodsBuy">立即购买</div>
+                        <div class="triangle_left triangle5_left"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="floor_goodsBox">
+                        <div><img src="img/floor/floor5_6.jpg" alt=""/></div>
+                        <div class="floor_goodsInfo">舒适家居服饰</div>
+                        <div class="floor_goodsPrice">¥:299.00</div>
+                        <div class="floor_goodsBuy floor5_goodsBuy">立即购买</div>
+                        <div class="triangle_left triangle5_left"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!--热门评论专区-->
+<div class="hotComBox">
+    <!--左边评论区域-->
+    <div class="hotCom_Area">
+        <div class="hotCom_title">热门评论</div>
+        <div class="hotCom_tab">
+            <ul>
+                <li class="active">防辐射服</li>
+                <li>孕妇装</li>
+                <li>纸尿裤</li>
+                <li>产后用品</li>
+                <li>奶瓶奶嘴</li>
+                <li>妈咪美容</li>
+                <li>洗护用品</li>
+                <li>安全座椅</li>
+                <li>喂养用品</li>
+            </ul>
+        </div>
+        <!--指示条-->
+        <div class="hotCom_tabIndi"></div>
+        <!--晒单框框-->
+        <div class="buyerShow">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-md-3">
+                         <div class="showGoodsBox">
+                             <div class="hotCom_goodsImg"><img src="img/hotComImg/hotCom1_1.jpg" alt=""/></div>
+                             <div class="hotCom_goodsInfo">
+                                 <div>1023954@qq.com</div>
+                                 <div class="hotCom_goodsStar">★★★★★</div>
+                                 <div>款式时尚 大小正合适款式时尚 大小正合适款式时尚</div>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-md-3">
+                         <div class="showGoodsBox">
+                             <div class="hotCom_goodsImg"><img src="img/hotComImg/hotCom1_2.jpg" alt=""/></div>
+                             <div class="hotCom_goodsInfo">
+                                 <div>1023954@qq.com</div>
+                                 <div class="hotCom_goodsStar">★★★★★</div>
+                                 <div>美丽大方端庄整洁很好很喜欢</div>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-md-3">
+                         <div class="showGoodsBox">
+
+                             <div class="hotCom_goodsImg"><img src="img/hotComImg/hotCom1_3.jpg" alt=""/></div>
+                             <div class="hotCom_goodsInfo">
+                                 <div>1023954@qq.com</div>
+                                 <div class="hotCom_goodsStar">★★★★★</div>
+                                 <div>刚刚好，不多也不少，下次还来</div>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-md-3">
+                         <div class="showGoodsBox">
+
+                             <div class="hotCom_goodsImg"><img src="img/hotComImg/hotCom1_4.jpg" alt=""/></div>
+                             <div class="hotCom_goodsInfo">
+                                 <div>1023954@qq.com</div>
+                                 <div class="hotCom_goodsStar">★★★★★</div>
+                                 <div>款式时尚 大小正合适款式时尚 大小正合适款式时尚</div>
+                             </div>
+                         </div>
+                     </div>
+                     <!--OPPO-->
+                     <div class="col-md-3">
+                         <div class="showGoodsBox">
+                             <div class="hotCom_goodsImg"><img src="img/hotComImg/hotCom1_5.jpg" alt=""/></div>
+                             <div class="hotCom_goodsInfo">
+                                 <div>1023954@qq.com</div>
+                                 <div class="hotCom_goodsStar">★★★★★</div>
+                                 <div>防辐射真的防防辐射，一点信号也灭了</div>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-md-3">
+                         <div class="showGoodsBox">
+
+                             <div class="hotCom_goodsImg"><img src="img/hotComImg/hotCom1_6.jpg" alt=""/></div>
+                             <div class="hotCom_goodsInfo">
+                                 <div>1023954@qq.com</div>
+                                 <div class="hotCom_goodsStar">★★★★★</div>
+                                 <div>倾力推荐此时不买更待何时</div>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-md-3">
+                         <div class="showGoodsBox">
+
+                             <div class="hotCom_goodsImg"><img src="img/hotComImg/hotCom1_7.jpg" alt=""/></div>
+                             <div class="hotCom_goodsInfo">
+                                 <div>1023954@qq.com</div>
+                                 <div class="hotCom_goodsStar">★★★★★</div>
+                                 <div>非常舒适。很喜欢，真的不错</div>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-md-3">
+                         <div class="showGoodsBox">
+
+                             <div class="hotCom_goodsImg"><img src="img/hotComImg/hotCom1_8.jpg" alt=""/></div>
+                             <div class="hotCom_goodsInfo">
+                                 <div>1023954@qq.com</div>
+                                 <div class="hotCom_goodsStar">★★★★★</div>
+                                 <div>非常舒适。很喜欢，真的不错</div>
+                             </div>
+                         </div>
+                     </div>
+
+                 </div>
+             </div>
+
+        </div>
+    </div>
+    <!--右边广告区域-->
+    <div class="hotCom_Ads">        
+        <div><img src="img/comment/com_ads1.jpg" alt=""/></div>
+        <div><img src="img/comment/com_ads2.jpg" alt=""/></div>
+    </div>
+</div>
+<!--页脚区域-->
+<div class="footer">
+         <!--常见问题详解-->
+        <div class="question_area">
+            <div class="question_box">
+                <div>
+                    <ul>
+                        <li class="quesItem_title">使用帮助</li>
+                        <li>常见问题</li>
+                        <li>我的订单</li>
+                        <li>会员等级</li>
+                        <li>会员积分</li>
+                        <li>购物流程</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li class="quesItem_title">支付方式</li>
+                        <li>在线支付</li>
+                        <li>优惠券使用</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li class="quesItem_title">配送方式</li>
+                        <li>配送说明</li>
+                        <li>发货时间</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li class="quesItem_title">售后服务</li>
+                        <li>退换货政策</li>
+                        <li>退款说明</li>
+                        <li>关于发票</li>
+                    </ul>
+                </div>
+                <div class="quesItem_last">
+                    <ul>
+                        <li class="quesItem_title">联系方式</li>
+                        <li>关于我们</li>
+                        <li>联系我们</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ques_contactBox">
+                <div>关注十月商城</div>
+                <div><img src="img/footer/wechatBarcord.png" alt=""/></div>
+                <div>客服电话:400-400-400</div>
+            </div>
+        </div>
+        <div class="footer_info">
+            Copyright © 2017 OCTMAMI All rights reserved. | 沪ICP备13013146号 | www.octmami.com 版权所有 上海有喜电子商务有限公司
+        </div>
+        
+
+</div>
+
+
+</body>
+</html>
